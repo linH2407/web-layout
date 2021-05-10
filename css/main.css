@@ -1,0 +1,129 @@
+.container {
+    display: grid;
+    grid-template-areas:
+                        's1 s2 s2 s2 s2'
+                        's1 s2 s2 s2 s2'
+                        's1 s3 s3 s3 s4';
+    grid-gap: 30px;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 0.8fr 0.8fr 0.8fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.container > div{
+    padding:30px ;   
+}
+.section1 {
+    grid-area: s1;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 6px;
+}
+.section2 {
+    grid-area: s2;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 6px;
+}
+
+.section3 {
+    grid-area: s3;
+    box-shadow: 0px 3px 6px #000000;
+    border-radius: 6px;
+}
+.section4 {
+    grid-area: s4;
+    
+}
+.avt {
+    display: block;
+    border: 40px solid #249EA0 ;
+    border-radius: 100%;
+    
+}
+.cv {
+    display: flex;
+}
+h3{
+    color: #005F60;
+    font-family: "Lucida Console";
+    text-align: left;
+    font-weight:600;
+}
+h4{
+    color: #005F60;
+    font-family:"Lucida Console",monospace;
+    text-align: left;
+    font-weight:600;
+}
+h5{
+    color: #005f60 ;
+    font-family: arial;
+    
+}
+/*
+@font-face{
+    font-family:'montserrat';
+    src:url(fonts/Montserrat-Black.ttf);
+    font-style:normal;
+    font-weight:600;
+}
+*/
+.meter {
+	width: 100px;
+	height:7px;
+    background-color: #fff;
+    border: 1px solid #249ea0;
+    border-radius: 3.5px;
+    float: right;
+    margin-left: auto;
+    margin-top: 25px;
+}
+.meter>span {
+    display: block;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #005f60;
+
+}.ha {
+    display: flex;
+}
+span {
+    color: #008080;
+}
+.circle {
+    display: block;
+    border: 100px solid #005f60 ;
+    border-radius: 100%;    
+}
+.a {
+    display: flex;
+}
+.fa {
+  padding: 22px ;  
+}
+.b {
+    float: right;
+    margin-bottom: 20px;
+}
+.d {
+margin: 5px;
+}
+.education {
+    display: flex;
+}
+
+.time {
+    margin-left: 50px;
+}
+
+.fa-user {
+    background-color: #249EA0;
+    color: white;
+    margin: auto;
+    padding: 0px;
+}
+
+.name {
+    margin-left: 50px;
+    margin-top: 20px;
+}
